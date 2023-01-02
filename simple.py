@@ -6,6 +6,7 @@ def main():
     print (html)
     import pdb; pdb.set_trace()
     print ("Running scraper...")
+    html.read() ## Reads the actual file 
 
 
 if __name__ == "__main__":
